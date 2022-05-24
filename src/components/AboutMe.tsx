@@ -2,10 +2,10 @@ import React from 'react'
 
 const AboutMe = () => {
   return (
-    <section className="">
+    <section className="flex flex-col-reverse">
       <div>
         <header>
-          <h1>A Simple Bookmark Manager</h1>
+          <h1 className="text-blue-500">A Simple Bookmark Manager</h1>
         </header>
         <p>
           A clean and simple interface to organize your favourite websites. Open
@@ -14,6 +14,7 @@ const AboutMe = () => {
         <button>Get it on Firefox</button>
       </div>
       <div>
+        <div className="" />
         <img src="/images/illustration-hero.svg" alt="App preview" />
       </div>
     </section>

@@ -5,7 +5,7 @@ import AboutMe from '../components/AboutMe'
 
 const Home: NextPage = () => {
   return (
-    <div className="flex min-h-screen flex-col items-center justify-center py-2">
+    <div className="flex flex-col items-center justify-center py-2">
       <Head>
         <title>Bookmark</title>
         <link rel="icon" href="/favicon.ico" />
