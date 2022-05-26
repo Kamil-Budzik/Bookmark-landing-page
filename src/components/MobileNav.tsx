@@ -32,8 +32,10 @@ const MobileNav = ({ closeNav }: Props) => {
         <li className="w-full  cursor-pointer py-4 text-center text-xl uppercase text-white transition duration-300 hover:text-blue-600">
           Contact
         </li>
-        <li className="w-full   cursor-pointer py-4 text-center text-xl uppercase text-white transition duration-300 hover:text-blue-600">
-          <button>Login</button>
+        <li className="w-full py-4 text-center text-xl uppercase text-white">
+          <button className="w-full border-2 py-2 font-medium  uppercase tracking-wider transition duration-300 hover:bg-white hover:text-blue-700">
+            Login
+          </button>
         </li>
       </ul>
     </nav>
