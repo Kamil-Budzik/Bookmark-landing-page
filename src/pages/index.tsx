@@ -3,6 +3,7 @@ import Head from 'next/head'
 
 import Navigation from '../components/Navigation'
 import AboutMe from '../components/AboutMe'
+import Features from '../components/Features'
 
 const Home: NextPage = () => {
   return (
@@ -24,6 +25,7 @@ const Home: NextPage = () => {
       <main>
         <Navigation />
         <AboutMe />
+        <Features />
       </main>
     </div>
   )
