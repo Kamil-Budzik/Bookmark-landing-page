@@ -2,7 +2,7 @@ import React from 'react'
 
 const AboutMe = () => {
   return (
-    <section className="flex flex-col-reverse items-center px-12 lg:flex-row lg:justify-between lg:py-24">
+    <section className="container flex flex-col-reverse items-center px-12 lg:flex-row lg:justify-between lg:py-24">
       <div className="max-w-lg">
         <header>
           <h1 className="my-4 max-w-md text-center text-4xl font-medium text-blue-700 lg:text-left">

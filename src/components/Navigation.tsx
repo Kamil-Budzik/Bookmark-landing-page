@@ -8,7 +8,7 @@ const Navigation = () => {
   const closeNav = () => setIsOpen(false)
 
   return (
-    <nav className="flex items-center justify-between px-8 py-12">
+    <nav className="container flex items-center justify-between px-8 py-12">
       <img
         src="/images/logo-bookmark.svg"
         alt="Bookmark logo"

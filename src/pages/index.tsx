@@ -7,7 +7,7 @@ import Features from '../components/Features'
 
 const Home: NextPage = () => {
   return (
-    <div className="flex flex-col items-center justify-center py-2">
+    <div className="py-2">
       <Head>
         <title>Bookmark</title>
         <link rel="icon" href="/favicon.ico" />
@@ -22,7 +22,7 @@ const Home: NextPage = () => {
           rel="stylesheet"
         />
       </Head>
-      <main>
+      <main className="flex flex-col items-center justify-center">
         <Navigation />
         <AboutMe />
         <Features />
