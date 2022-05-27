@@ -1,6 +1,8 @@
-import React from 'react'
+import React, { useState } from 'react'
 
 const Features = () => {
+  const [activeEl, setActiveEl] = useState(0)
+  const NAVEL = ['Simple Bookmarking', 'Speedy Searching', 'Easy Sharing']
   return (
     <section className="mt-32 flex flex-col items-center px-8">
       <div className="max-w-lg text-center">
@@ -13,11 +15,16 @@ const Features = () => {
           them on the go.
         </p>
         <ul className="text-blue-600 md:mt-12 md:flex md:justify-between">
-          <li className="active-feature border-t border-b py-3 md:border-t-0">
-            Simple Bookmarking
-          </li>
-          <li className="border-b py-3 ">Speedy Searching</li>
-          <li className="border-b py-3">Easy Sharing</li>
+          {NAVEL.map((el, i) => (
+            <li
+              className={`cursor-pointer border-t border-b py-3 md:border-t-0 ${
+                activeEl === i && 'active-feature'
+              }`}
+              onClick={() => setActiveEl(i)}
+            >
+              {el}
+            </li>
+          ))}
         </ul>
       </div>
     </section>
