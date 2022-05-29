@@ -41,6 +41,7 @@ const Features = () => {
         <ul className="text-blue-600 md:mt-12 md:flex md:justify-between">
           {ELEMENTS.map((el, i) => (
             <li
+              key={i}
               className={`cursor-pointer border-t border-b py-3 md:border-t-0 ${
                 activeEl === i && 'active-feature'
               }`}
