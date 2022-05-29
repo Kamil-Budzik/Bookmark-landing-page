@@ -5,10 +5,11 @@ import Navigation from '../components/Navigation'
 import AboutMe from '../components/AboutMe'
 import Features from '../components/Features'
 import Extension from '../components/Extension'
+import Questions from '../components/Questions'
 
 const Home: NextPage = () => {
   return (
-    <div className="py-2">
+    <div className="overflow-x-hidden py-2">
       <Head>
         <title>Bookmark</title>
         <link rel="icon" href="/favicon.ico" />
@@ -28,6 +29,7 @@ const Home: NextPage = () => {
         <AboutMe />
         <Features />
         <Extension />
+        <Questions />
       </main>
     </div>
   )
