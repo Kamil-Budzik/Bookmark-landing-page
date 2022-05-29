@@ -19,7 +19,7 @@ const Extension = () => {
       />
       <ul className="flex w-full grid-cols-3 flex-wrap items-center justify-center">
         {CARTS.map((cart) => (
-          <Cart {...cart} />
+          <Cart {...cart} key={cart.browser} />
         ))}
       </ul>
     </section>
