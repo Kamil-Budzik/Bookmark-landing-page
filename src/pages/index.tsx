@@ -6,6 +6,7 @@ import AboutMe from '../components/AboutMe'
 import Features from '../components/Features'
 import Extension from '../components/Extension'
 import Questions from '../components/Questions'
+import Newsletter from '../components/Newsletter'
 
 const Home: NextPage = () => {
   return (
@@ -30,6 +31,7 @@ const Home: NextPage = () => {
         <Features />
         <Extension />
         <Questions />
+        <Newsletter />
       </main>
     </div>
   )
