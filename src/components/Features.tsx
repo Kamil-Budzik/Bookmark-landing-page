@@ -29,7 +29,7 @@ const Features = () => {
   const { title, content, img } = CONTENT[activeEl]
 
   return (
-    <section className="mt-32 flex flex-col items-center px-12">
+    <section className="mt-32 flex flex-col items-center px-12" id="features">
       <div className="max-w-lg text-center">
         <Introduction
           title="Features"

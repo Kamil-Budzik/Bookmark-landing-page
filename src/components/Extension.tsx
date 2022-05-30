@@ -11,7 +11,7 @@ const CARTS = [
 
 const Extension = () => {
   return (
-    <section className="mt-32 flex flex-col items-center px-12">
+    <section className="mt-32 flex flex-col items-center px-12" id="pricing">
       <Introduction
         title="Dowload the extension"
         content="We've got more browsers in the pipeline. Please do let us know if you've

@@ -25,13 +25,19 @@ const MobileNav = ({ closeNav }: Props) => {
       <div className="flex h-4/5 flex-col justify-between">
         <ul className="mx-8 flex h-2/5 flex-col items-center divide-y divide-slate-700 ">
           <li className="w-full cursor-pointer py-4 text-center text-xl uppercase text-white transition duration-300 hover:text-blue-600">
-            Features
+            <a href="#features" onClick={closeNav}>
+              Features
+            </a>
           </li>
           <li className="w-full cursor-pointer py-4 text-center text-xl uppercase text-white transition duration-300 hover:text-blue-600">
-            Pricing
+            <a href="#pricing" onClick={closeNav}>
+              Pricing
+            </a>
           </li>
           <li className="w-full  cursor-pointer py-4 text-center text-xl uppercase text-white transition duration-300 hover:text-blue-600">
-            Contact
+            <a href="#contact" onClick={closeNav}>
+              Contact
+            </a>
           </li>
           <li className="w-full py-4 text-center text-xl uppercase text-white">
             <button className="w-full border-2 py-2 font-medium  uppercase tracking-wider transition duration-300 hover:bg-white hover:text-blue-700">

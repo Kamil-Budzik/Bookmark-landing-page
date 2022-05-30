@@ -2,7 +2,10 @@ import React from 'react'
 
 const Newsletter = () => {
   return (
-    <section className="mt-32 flex w-full justify-center  bg-blue-500 px-12 py-12 text-white">
+    <section
+      className="mt-32 flex w-full justify-center  bg-blue-500 px-12 py-12 text-white"
+      id="contact"
+    >
       <div className="max-w-md text-center">
         <header>
           <p className="text-lg uppercase">35.000+ Already joined</p>
