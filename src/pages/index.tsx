@@ -7,6 +7,7 @@ import Features from '../components/Features'
 import Extension from '../components/Extension'
 import Questions from '../components/Questions'
 import Newsletter from '../components/Newsletter'
+import Footer from '../components/Footer'
 
 const Home: NextPage = () => {
   return (
@@ -32,6 +33,7 @@ const Home: NextPage = () => {
         <Extension />
         <Questions />
         <Newsletter />
+        <Footer />
       </main>
     </div>
   )
