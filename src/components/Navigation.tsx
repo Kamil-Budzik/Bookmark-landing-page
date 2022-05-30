@@ -28,13 +28,13 @@ const Navigation = () => {
       ) : (
         <ul className="hidden items-center sm:flex">
           <li className="mx-2  cursor-pointer transition hover:text-red md:mx-4">
-            Features
+            <a href="#features">Features</a>
           </li>
           <li className="mx-2  cursor-pointer transition hover:text-red md:mx-4">
-            Pricing
+            <a href="#pricing">Pricing</a>
           </li>
           <li className="mx-2  cursor-pointer transition hover:text-red md:mx-4">
-            Contact
+            <a href="#contact">Contact</a>
           </li>
           <li className="mx-2 md:mx-4">
             <button className="red-button">Login</button>
