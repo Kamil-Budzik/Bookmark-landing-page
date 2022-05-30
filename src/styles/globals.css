@@ -16,7 +16,7 @@ body {
     @apply rounded border-2 border-transparent px-4 py-3 font-medium text-blue-700 shadow-md shadow-slate-300 transition duration-300 hover:border-gray-300;
   }
   .red-button {
-    @apply border-2 border-transparent bg-red px-4 py-2 text-white transition duration-300 hover:border-red hover:bg-transparent hover:text-red;
+    @apply border-2 border-transparent bg-red px-4 py-2 text-white transition duration-300 hover:border-red hover:bg-white hover:text-red;
   }
   .active-feature {
     @apply relative border-b-4 border-b-red text-blue-700 !important;

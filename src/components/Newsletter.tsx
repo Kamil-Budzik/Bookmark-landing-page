@@ -10,13 +10,16 @@ const Newsletter = () => {
             Stay up-to-date with what we're doing
           </h3>
         </header>
-        <form className="flex flex-col">
+        <form className="flex flex-col md:mt-4 md:flex-row md:items-center md:justify-between">
           <input
-            className="rounded px-4 py-3 placeholder:text-blue-600"
+            className="mw-full rounded px-4 py-3 text-black placeholder:text-blue-600 md:flex-grow"
             placeholder="Enter your email adress"
-            type="text"
+            type="email"
           />
-          <button type="submit" className="red-button mt-4 rounded">
+          <button
+            type="submit"
+            className="red-button mt-4 rounded md:mt-0 md:ml-4"
+          >
             Contact Us
           </button>
         </form>
