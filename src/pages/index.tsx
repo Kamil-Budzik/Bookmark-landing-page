@@ -11,7 +11,7 @@ import Footer from '../components/Footer'
 
 const Home: NextPage = () => {
   return (
-    <div className="overflow-x-hidden py-2">
+    <div className="overflow-x-hidden">
       <Head>
         <title>Bookmark</title>
         <link rel="icon" href="/favicon.ico" />
